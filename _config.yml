@@ -1,5 +1,5 @@
 # Site settings
-title: Luke Tucker: New Developer Blog
+title: Luke Tucker New Developer Blog
 email: ltuckerb10@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -12,4 +12,4 @@ github_username:  jekyll
 highlighter: rouge
 encoding: utf-8
 # Build settings
-markdown
+markdown: kramdown
