@@ -1,11 +1,19 @@
 ---
-layout: page
+layout: default 
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<h2>Hello</h2>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<p>Thank you for visiting my website. On this page you will find my resume, links to my portfolio, 
+and blog posts relating to my time at the Nashville Software School.</p>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+If you decide to invest the energy and become a repeat visitor you will learn the following about me
+
+I havs spent the majority of my working life helping individuals with Intellectual Disabilites
+ achieve their life goals. 
+ 
+ My wife and I have been married for 3 years and currently have five cats. 
+
+With that as a primer, I hope you enjoy my website. 

@@ -3,23 +3,12 @@ title: Blog
 layout: default
 permalink: /blog/
 ---
+<h1>Welcome to my blog page</h1>
 
-<div class="home">
+<p>On this page you will find the unvarnished chronicling a career socials services professional as he 
+embarks on a second career in software development. While attending Nashville Software School I will
+publish blog posts on a weekly basis to document my progress in the course, revel in my general ineptness,
+and hopefully provide insight into this process for similar professionals attempting to make this career
+transition.</p>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
