@@ -120,6 +120,9 @@ blockquote {
     }
 }
 
+.portfoliolinks {
+  text-align: center;
+}
 
 
 /**
@@ -148,8 +151,55 @@ pre {
     }
 }
 
+.myphoto {
+  max-width: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.resume {
+  max-width: 100px;
+}
+.post-title {
+  text-align: center;
+}
 
+.icons, .resume {
+  text-align: center;
+  background-color: #C08181;
+}
+.bios {
+  border-color: black;
+  border-width: 10px;
+  border-collapse: none;
+}
+.footicon {
+  max-width: 90px;
+}
 
+.portsection {
+  background-color: gray;
+}
+.tnfinder {
+  margin-bottom: 25px;
+
+}
+.tnmapp {
+  display: inline-block;
+  float: left;
+  max-width:400px;
+  margin-right: 15px;
+}
+.quitimage {
+  display: inline-block;
+  float: left;
+  max-width:400px;
+  margin-right: 10px;
+}
+.quithead, .tennhead {
+  font-weight: bold;
+
+}
 /**
  * Wrapper
  */

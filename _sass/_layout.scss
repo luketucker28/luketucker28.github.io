@@ -5,35 +5,41 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 75px;
+
 
     // Positioning context for the mobile navigation icon
     position: relative;
+  
 }
 
 .site-title {
-    font-sizve: 26px;
+    font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    margin-right: 5px;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    color: white;
 }
+.site-title:visited {
+        color: #C08181;
+    }
+.site-title {
+  color: #C08181;
+}
+
 
 .site-nav {
     float: right;
     line-height: 56px;
+    vertical-align: center;
 
     .menu-icon {
         display: none;
     }
-
     .page-link {
-        color: $text-color;
+        color: White;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -41,7 +47,11 @@
             margin-left: 20px;
         }
     }
-
+    .resumesect {
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+    }
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -73,6 +83,7 @@
         .trigger {
             clear: both;
             display: none;
+            margin-right: 0px;
         }
 
         &:hover .trigger {
@@ -148,7 +159,9 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
+.github-icon {
+  max-width: 100px;
+}
 @include media-query($on-palm) {
     .footer-col {
         float: none;

@@ -1,11 +1,33 @@
-h3 {
-  color: blue;
+.tnmapp {
+  width: 200px;
+
+}
+.quitmap {
+  text-align: center;
+  text-wrap:
+  display: inline-block;
+}
+.tnfinder {
+  display: inline-block;
+  text-align: center;
 }
 
-
-
-
-
-
-
-
+.emailer {
+  display: inline-block;
+}
+.github {
+  max-width: 50px;
+  float: right;
+  margin-left: 10px;
+  display: inline-block;
+}
+.github-icon {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 10px;
+  display: inline-block;
+}
+.wrapper {
+  max-width: 1000px;
+}
